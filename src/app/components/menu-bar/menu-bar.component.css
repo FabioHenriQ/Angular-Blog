@@ -1,0 +1,5 @@
+.container__menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
