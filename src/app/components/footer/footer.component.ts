@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  links: string[] = ["Produtos", "Geral", "Features", "Soluções", "Tutoriais", "Preços", "Lançamentos", "Companhia", "Sobre nós", "Carreiras", "Novidades", "Contato", "Blog", "Startups", "Ecommerce"];
 }

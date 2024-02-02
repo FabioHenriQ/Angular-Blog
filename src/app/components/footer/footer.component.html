@@ -1,1 +1,17 @@
-<p>footer works!</p>
+<footer>
+  <h4>Vamos começar algo incrível juntos!</h4>
+  <p>Junte-se a 4,000+ StartUps que faz parceria com a Empresa</p>
+  <div class="container_buttons">
+    <button>a</button>
+    <button>a</button>
+  </div>
+  <div class="container_links">
+    @for (linkFooter of links; track $index) {
+      <a href="/">{{ linkFooter }}</a>
+    }
+  </div>
+  <div class="container_logo">
+    <a title="logo" href="#"><img src="/assets/icons/logo.png" alt="logo">Fal<span>Blog</span></a>
+    <p> &#64;2077 Empresa. Todos os direitos reservados</p>
+  </div>
+</footer>
