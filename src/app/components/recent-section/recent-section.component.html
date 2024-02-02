@@ -1,15 +1,16 @@
 <section class="container__recent-section">
   <h4>Recentes</h4>
+
   <div class="container_small-card">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    @for (noticia of recents.news; track $index) {
+      <app-small-card
+        title="{{ noticia.title }}"
+        description="{{ noticia.description }}"
+        img="{{ noticia.img }}"
+        namePerson="{{ noticia.namePerson }}"
+        imgPerson="{{ noticia.imgPerson }}"
+      ></app-small-card>
+    }
   </div>
 
 </section>
