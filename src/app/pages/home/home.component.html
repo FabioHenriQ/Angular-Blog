@@ -1,6 +1,10 @@
 <div class="container__home">
   <app-menu-bar></app-menu-bar>
-  <app-big-card></app-big-card>
-  <app-recent-section></app-recent-section>
-  <app-footer></app-footer>
+  <app-big-card #bigCard></app-big-card>
+  @defer (on viewport(bigCard)) {
+    <app-recent-section #recentSection></app-recent-section>
+    @defer (on viewport(recentSection)) {
+      <app-footer></app-footer>
+    }
+  }
 </div>

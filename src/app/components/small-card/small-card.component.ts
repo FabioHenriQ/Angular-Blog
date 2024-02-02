@@ -13,5 +13,4 @@ export class SmallCardComponent {
   @Input() description: string = '';
   @Input() namePerson: string = '';
   @Input() imgPerson: string = '';
-
 }

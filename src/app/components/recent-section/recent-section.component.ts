@@ -12,7 +12,6 @@ export class RecentSectionComponent {
 
   recents = {
     news: [{
-      id: 0,
       title: "noticia 1",
       img: "https://th.bing.com/th/id/OIP.48USig7crJ7H-Lui59isuAHaEo?rs=1&pid=ImgDetMain",
       description: "Sla sla sla",
@@ -20,8 +19,21 @@ export class RecentSectionComponent {
       imgPerson: "https://th.bing.com/th/id/OIP.xo-BCC1ZKFpLL65D93eHcgHaGe?rs=1&pid=ImgDetMain"
     },
     {
-      id: 1,
       title: "noticia 2",
+      img: "https://th.bing.com/th/id/OIP.48USig7crJ7H-Lui59isuAHaEo?rs=1&pid=ImgDetMain",
+      description: "Sla sla sla",
+      namePerson: "Luick",
+      imgPerson: "https://th.bing.com/th/id/OIP.xo-BCC1ZKFpLL65D93eHcgHaGe?rs=1&pid=ImgDetMain"
+    },
+    {
+      title: "noticia 3",
+      img: "https://th.bing.com/th/id/OIP.48USig7crJ7H-Lui59isuAHaEo?rs=1&pid=ImgDetMain",
+      description: "Sla sla sla",
+      namePerson: "Luick",
+      imgPerson: "https://th.bing.com/th/id/OIP.xo-BCC1ZKFpLL65D93eHcgHaGe?rs=1&pid=ImgDetMain"
+    },
+    {
+      title: "noticia 4",
       img: "https://th.bing.com/th/id/OIP.48USig7crJ7H-Lui59isuAHaEo?rs=1&pid=ImgDetMain",
       description: "Sla sla sla",
       namePerson: "Luick",

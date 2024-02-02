@@ -1,4 +1,15 @@
-div {
-  background-color: aqua;
+.container__small-card {
   margin-top: 5%;
+}
+.container__small-card img {
+  height: auto;
+  width: 370px;
+}
+
+.container_person {
+  display: flex;
+}
+.container_person img {
+  height: auto;
+  width: 20px;
 }
