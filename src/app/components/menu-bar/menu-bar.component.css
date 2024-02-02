@@ -3,7 +3,10 @@
   width: 90vw;
   justify-content: space-around;
   align-items: center;
-
+}
+.container_logo img{
+  height: auto;
+  width: 40px;
 }
 
 span {

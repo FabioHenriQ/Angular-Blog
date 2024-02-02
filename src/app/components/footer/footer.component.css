@@ -3,13 +3,24 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
+  background-color: #000;
+  width: 100vw;
 }
 .container_links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
+.container_links a, .container_logo a {
+  color: #fff;
+  text-decoration: none;
+}
 .container_logo {
   display: flex;
   align-items: center;
+}
+.container_logo img{
+  height: auto;
+  width: 40px;
 }
