@@ -1,18 +1,32 @@
 .container__big-card {
-  background-image: url('/assets/images/angel-sanchez-4pp7xelgItM-unsplash.jpg');
+  background-image: url('/assets/images/programming.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 80vh;
+  height: 85vh;
   width: 90vw;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  box-shadow: inset 0px 0px 50px 100px #00000085;
   border-radius: 20px;
-  gap: 6px;
-  padding: 15px;
+  gap: 5%;
+  padding: 15px 15px 80px 80px;
+  box-shadow: 28px -1px 29px #d5d5d5, -28px 28px 39px #ebebeb;
+  cursor: pointer;
+}
+.container__big-card p:not(:last-child) {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
 
+.container__big-card h4 {
+  font-size: 2.5rem;
+}
+
+.container__big-card p:last-child {
+  font-weight: 100;
+  color: #ffffff;
+  max-width: 70%;
 }
 

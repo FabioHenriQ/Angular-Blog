@@ -1,6 +1,7 @@
 .container__small-card {
   margin-top: 5%;
   padding: 0 12px;
+  cursor: pointer;
 }
 .container__small-card img {
   height: auto;

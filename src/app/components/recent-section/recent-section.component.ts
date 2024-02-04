@@ -27,7 +27,7 @@ export class RecentSectionComponent {
     },
     {
       title: "noticia 3",
-      img: "/assets/images/programming.jpg",
+      img: "/assets/images/produtividade.jpg",
       description: "Sla sla sla",
       namePerson: "Luick",
       imgPerson: "https://th.bing.com/th/id/OIP.xo-BCC1ZKFpLL65D93eHcgHaGe?rs=1&pid=ImgDetMain"
@@ -35,6 +35,20 @@ export class RecentSectionComponent {
     {
       title: "noticia 4",
       img: "/assets/images/social-medias.jpg",
+      description: "Sla sla sla",
+      namePerson: "Luick",
+      imgPerson: "https://th.bing.com/th/id/OIP.xo-BCC1ZKFpLL65D93eHcgHaGe?rs=1&pid=ImgDetMain"
+    },
+    {
+      title: "noticia 5",
+      img: "/assets/images/animais.jpg",
+      description: "Sla sla sla",
+      namePerson: "Luick",
+      imgPerson: "https://th.bing.com/th/id/OIP.xo-BCC1ZKFpLL65D93eHcgHaGe?rs=1&pid=ImgDetMain"
+    },
+    {
+      title: "noticia 6",
+      img: "/assets/images/reuniao.jpg",
       description: "Sla sla sla",
       namePerson: "Luick",
       imgPerson: "https://th.bing.com/th/id/OIP.xo-BCC1ZKFpLL65D93eHcgHaGe?rs=1&pid=ImgDetMain"

@@ -5,9 +5,11 @@ footer {
   align-items: center;
   color: #fff;
   background-color: #000;
-  width: 100vw;
+  width: 99.9vw;
+  border: 1px solid red;
 }
 .container_links {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -17,8 +19,10 @@ footer {
   text-decoration: none;
 }
 .container_logo {
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .container_logo img{
   height: auto;

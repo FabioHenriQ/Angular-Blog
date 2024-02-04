@@ -1,14 +1,45 @@
 .container__menu-bar {
   display: flex;
   width: 90vw;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 15px 0;
+  font-weight: 600;
+}
+.container_logo {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.container_logo a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #000;
 }
 .container_logo img{
   height: auto;
-  width: 40px;
+  width: 30px;
+}
+.container_buttons {
+  display: flex;
+  gap: 7px;
+}
+.container_buttons button {
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  border-radius: 9px;
+  font-weight: 500;
+  padding: 8px;
+  font-size: 1.1rem;
+  transition: 1s;
+  background: #2c2c2c;
+  box-shadow: -50px -50px 100px #1f1f1f,  50px 50px 100px #242424;
 }
 
-span {
-  color: red;
+.container_buttons button:not(:last-child) {
+  color: #000;
+  background: #ffffff;
+  box-shadow: -50px -50px 100px #b4b4b4,  50px 50px 100px #cac9c9;
 }
+
