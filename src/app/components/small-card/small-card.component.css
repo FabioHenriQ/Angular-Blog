@@ -1,9 +1,11 @@
 .container__small-card {
   margin-top: 5%;
+  padding: 0 12px;
 }
 .container__small-card img {
   height: auto;
-  width: 370px;
+  width: 380px;
+  border-radius: 10px;
 }
 
 .container_person {
