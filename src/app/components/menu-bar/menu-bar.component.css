@@ -11,7 +11,7 @@
   align-items: center;
   gap: 3px;
 }
-.container_logo a {
+.container_logo a  {
   font-size: 1.3rem;
   text-decoration: none;
   color: #000;
@@ -19,6 +19,25 @@
 .container_logo img{
   height: auto;
   width: 30px;
+}
+.container_options {
+  display: flex;
+  font-size: 1.1rem;
+  gap: 15px;
+}
+.container_options a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  transition: .5s;
+}
+.container_options a:last-child{
+  border-bottom: 1px solid #000;
+  border-radius: 5px;
+}
+.container_options a:hover {
+  border-bottom: 1px solid #000;
 }
 .container_buttons {
   display: flex;
@@ -33,7 +52,7 @@
   padding: 8px;
   font-size: 1.1rem;
   transition: 1s;
-  background: #2c2c2c;
+  background: #050505;
   box-shadow: -50px -50px 100px #1f1f1f,  50px 50px 100px #242424;
 }
 
