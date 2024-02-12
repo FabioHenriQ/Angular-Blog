@@ -1,7 +1,7 @@
 .container__menu-bar {
   display: flex;
-  width: 90vw;
-  justify-content: space-between;
+  width: 99.9vw;
+  justify-content: space-around;
   align-items: center;
   margin: 15px 0;
   font-weight: 600;
