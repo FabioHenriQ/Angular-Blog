@@ -7,13 +7,16 @@
   width: 380px;
   border-radius: 10px;
   box-shadow: 0px -1px 29px #d5d5d5, 0px 28px 39px #ebebeb;
-
 }
-
+.container__small-card h5 {
+  font-size: larger;
+}
 .container_person {
   display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .container_person img {
   height: auto;
-  width: 20px;
+  width: 30px;
 }
