@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { ActivatedRoute, RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-content',
@@ -9,5 +9,9 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   styleUrl: './content.component.css'
 })
 export class ContentComponent {
-
+  constructor(private activeRoute: ActivatedRoute) {
+    this.activeRoute.params.subscribe(
+      res => console.log(res)
+    )
+  }
 }
