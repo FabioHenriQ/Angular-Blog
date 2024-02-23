@@ -5,9 +5,9 @@ footer {
   align-items: center;
   color: #fff;
   background-color: #050505;
-  width: 99.9vw;
+  width: 100%;
   gap: 15px;
-  padding: 1.7% 0;
+  padding: 1.7% 1%;
 }
 footer h4 {
   font-size: 1.5rem;
