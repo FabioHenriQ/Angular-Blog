@@ -1,5 +1,5 @@
 # BlogAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+Feito com a versão 17 do Angular, com Typescript.
 
-## Development server
+Usado Routes, Binding para fazer uma SPA
